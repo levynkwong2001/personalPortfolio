@@ -52,11 +52,11 @@ body {
 }
 
 .button {
-  background-color: #1e1e35;
+  background-color: aqua;
   opacity: 1;
   /* Green */
   border: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -67,5 +67,15 @@ body {
   cursor: pointer;
   font-weight: bold;
   letter-spacing: 3px;
+
+
+}
+
+.button:hover {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transform: translateZ(30px);
 
 }
