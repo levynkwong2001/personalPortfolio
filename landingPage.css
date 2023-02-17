@@ -61,7 +61,7 @@ header {
     color: aqua;
 }
 
-.logo h1 {
+.logo a {
     font-family: 'Rowdies', cursive;
     color: aqua;
     letter-spacing: 2.5px;
@@ -90,21 +90,16 @@ header {
     height: auto;
     bottom: 0;
     z-index: -1;
-    top: 0;
+    top: 5%;
 
 
 }
 
-.tittle {
-    position: absolute;
-    top: 430px;
-    left: 690px;
-    color: white;
-    font-size: 70px;
-    font-family: 'Press Start 2P', cursive;
 
-}
 
+
+
+.tittle,
 .french,
 .arabic,
 .chinese,
@@ -113,6 +108,15 @@ header {
 .japanese,
 .korean {
     color: white;
+}
+
+.tittle {
+    position: absolute;
+    top: 460px;
+    left: 37%;
+    font-size: 70px;
+    font-family: 'Press Start 2P', cursive;
+
 }
 
 .french {
@@ -164,6 +168,35 @@ header {
     font-size: 80px;
 }
 
+
+.top-tittle {
+    color: white;
+    position: absolute;
+    top: 1200px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+.quote {
+    position: absolute;
+    top: 1200px;
+}
+
+
+
+.featured-work {
+    color: white;
+    position: absolute;
+    top: 1400px;
+    left: 5%;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+
+}
+
 .slider {
     height: 600px;
     margin: auto;
@@ -171,7 +204,7 @@ header {
     width: 90%;
     display: grid;
     place-items: center;
-    top: 1100px;
+    top: 1450px;
     overflow: hidden;
 }
 
@@ -336,16 +369,190 @@ footer a:hover {
     color: aqua;
 }
 
-.test h1 {
+
+.what-people-say {
+    color: white;
+    position: absolute;
+    top: 2050px;
+    left: 5%;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+
+}
+
+.slide-track2 p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.slider2 {
+    height: 400px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    top: 1450px;
+    overflow: hidden;
+
+}
+
+.slide-track2 {
+    display: flex;
+    width: calc(700px*8);
+    animation: scroll2 100s linear infinite;
+}
+
+.slide-track2:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll2 {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        transform: translateX(calc(-700px*4));
+    }
+}
+
+.slide2 {
+    height: 200px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    perspective: 100px;
+    background-color: rgb(68, 68, 68);
+    margin: 50px;
+    border-radius: 10px;
+
+
+}
+
+
+.name {
+    color: white;
+    position: absolute;
+    top: 160px;
+    left: 30px;
+
+}
+
+.about-me {
+
 
     color: white;
+    position: absolute;
+    top: 2500px;
+    left: 42%;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+
+
+}
+
+.about-me-border img {
+    width: 15%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    left: 75px;
+
+}
+
+.about-me-border {
+    position: absolute;
+    height: 750px;
+    top: 80px;
+    left: -680px;
+    width: 1660px;
+    background-color: rgb(68, 68, 68);
+    border-radius: 10px;
+
+}
+
+.about-me-border p {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 22px;
+    position: absolute;
+    left: 23%;
+    right: 15px;
+    top: 8%;
+}
+
+.about-me-middle {
+    position: absolute;
+    top: 40%;
+    left: 4.5%;
+    right: 3%;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.know-more {
+
+    position: absolute;
+    top: 730px;
+    left: 780px;
+    width: 200px;
+
+
+}
+
+.know-more button {
+    font-size: 22px;
+    border-radius: 15px;
+    border: solid rgb(105, 105, 105);
+    padding: 3px;
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    font-family: 'Poppins', sans-serif
+}
+
+.know-more button:hover {
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    cursor: pointer;
+
 }
 
 
 
-.test {
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.footer-menu li {
+    font-size: 14px;
+    margin: 0 10px;
+
+
+}
+
+.copyright {
+    background-color: rgb(10, 10, 10);
+    color: white;
     position: absolute;
-    top: 1800px;
+    top: 3340px;
+    width: 100%;
+    height: 75px;
+}
+
+.col-left {
+    width: 50%;
+    text-align: left;
+    padding: 30px;
+    box-sizing: border-box;
 }
 
 /* @media (max-width: 1280px) {
