@@ -5,18 +5,15 @@ tittle.style.visibility = "hidden";
 function toggle() {
 
     if (tittle.style.visibility == "hidden") {
-        tittle.style.visibility = "visible";
+        tittle.style.visibility = "visible ";
     }
-    console.log("success");
+    else if (tittle.style.visibility == "visible") {
+        tittle.style.visibility = "hidden";
+    }
+
+
 }
 
 
-function close() {
-
-    // if (tittle.style.visibility == "visible") {
-    //     tittle.style.visibility = "hidden";
-    // }
-    console.log("success");
-}
 
 

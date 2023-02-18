@@ -578,15 +578,24 @@ footer a:hover {
     width: 90%;
     left: 5%;
     height: 80vh;
-    background: rgb(105, 105, 105);
+    background: rgb(63, 63, 63);
     display: flex;
     align-items: center;
     justify-content: center;
     top: 1110px;
     border-radius: 10px;
 
+
 }
 
+
+/* 
+.slide-show#blur.active {
+    filter: blur(40px);
+    pointer-events: none;
+    border-radius: 10px;
+    user-select: none;
+} */
 
 .skills h2 {
     font-weight: 400;
@@ -609,7 +618,7 @@ footer a:hover {
     height: 10px;
     border-radius: 5px;
     width: 0%;
-    background: red;
+
 
 }
 
@@ -707,11 +716,12 @@ footer a:hover {
     position: absolute;
     left: 20px;
     top: 20px;
+    color: white;
 }
 
 .return-back:hover {
     cursor: pointer;
-    color: white;
+    color: aqua;
 }
 
 .resume {

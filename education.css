@@ -141,12 +141,16 @@ footer a:hover {
 }
 
 .container {
-    padding: 10px 50px;
+    padding: 80px 50px;
     position: relative;
-    width: 50%;
+    width: 45%;
     animation: movedown 1s linear forwards;
     opacity: 0;
+    border-radius: 10px;
+    margin: 30px;
+
 }
+
 
 @keyframes movedown {
     0% {
@@ -204,6 +208,7 @@ footer a:hover {
     position: relative;
     border-radius: 6px;
     font-size: 15px;
+    opacity: 90%;
 }
 
 .left-container {
@@ -214,24 +219,62 @@ footer a:hover {
     left: 50%;
 }
 
-.conainer img {
+.container img {
     position: absolute;
     width: 40px;
-    border-radius: 50%;
-    right: -20px;
-    top: 32px;
+    border-radius: 20%;
+    right: -30px;
+    top: 22px;
     z-index: 10;
 
 }
 
 .right-container img {
-    left: -20px;
+    left: -48px;
+
 }
 
 .left-container img {
-    right: -20px;
+    right: -48px;
 }
 
+
+.boulou {
+    background-image: url("education-images/304031992_536955538233511_1771021700650279873_n.jpg");
+}
+
+.stnicolas {
+    background-image: url("education-images/stnicolas.png")
+}
+
+.stjoseph {
+    background-image: url("education-images/stjoseph.jpeg")
+}
+
+.seegoolam {
+    background-image: url("education-images/seegoolam.jpg")
+}
+
+.uom {
+    background-image: url("education-images/uomback.jpg")
+}
+
+.coursera {
+    background-image: url("education-images/courseraback.png");
+    background-size: 550px;
+
+}
+
+.udemy {
+    background-image: url("education-images/udemyback.png");
+    background-size: 550px;
+}
+
+/* .boulou.stjoseph.stnicolas.uom {
+    margin-left: 30px;
+    border-radius: 10px;
+
+} */
 
 .timeline::after {
     content: '';
@@ -354,7 +397,7 @@ footer a:hover {
     background-color: rgb(10, 10, 10);
     color: white;
     position: absolute;
-    top: 3340px;
+    top: 2500px;
     width: 100%;
     height: 75px;
 }
