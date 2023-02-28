@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style: none;
 
+
 }
 
 
@@ -17,10 +18,12 @@ body {
 
 html body {
     height: 100%;
+
 }
 
 html {
     scroll-behavior: smooth;
+
 }
 
 
@@ -455,8 +458,7 @@ footer a:hover {
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Press Start 2P', cursive;
     font-size: 50px;
-
-
+    s
 }
 
 .about-me-border img {
@@ -465,6 +467,7 @@ footer a:hover {
     position: absolute;
     top: 50px;
     left: 75px;
+
 
 }
 
@@ -486,6 +489,7 @@ footer a:hover {
     left: 23%;
     right: 15px;
     top: 6%;
+
 }
 
 .about-me-middle {
@@ -495,6 +499,7 @@ footer a:hover {
     right: 3%;
     font-size: 22px;
     font-family: 'Poppins', sans-serif !important;
+
 }
 
 .know-more {
